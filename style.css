@@ -1,0 +1,83 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(
+    135deg,
+    #8052ec,
+    #d161ff
+    );
+    font-family:'Poppins',sans-serif ;
+}
+.container{
+min-width: 450px;
+top: 30px;
+}
+#newtask{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0,0,0.3);
+}
+#newtask input{
+   border: 2px solid #d1d3d4;
+   padding: 12px;
+   width: 70%;
+   color:#111111;
+   border-radius: 5px;
+}
+#newtask input:focus{
+    outline:none ;
+    border-radius: 5px;
+}
+#newtask button{
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #8052ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+#tasks{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 60px;
+   border-radius: 10px;
+   box-shadow: 0 15px 30px rgba(0, 0,0,0.3) ;
+}
+.task{
+background-color: #ffffff;
+padding: 5px 10px;
+margin-top: 10px;
+border-bottom: 2px solid #d1d3d4;
+}
+.task button{
+    max-height: 42px;
+    background-color: #8052ec;
+    color: #ffffff;
+    width: 40px;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.task span{
+font-size: 18px;
+font-weight: 500;
+}
+.completed{
+    text-decoration: line-through;
+}
+.delete{
+    right: 2%;
+}
+.edit{
+    right: 12%;
+}
